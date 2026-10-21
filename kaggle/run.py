@@ -2,6 +2,9 @@
 
 from pathlib import Path
 
+import shutil
+import subprocess
+
 import torch
 
 SLUG = "multiple-object-video-detection-hw-2-ucu-ai-2026"
@@ -19,3 +22,7 @@ if torch.cuda.is_available():
     print("gpu:", torch.cuda.get_device_name(0))
 else:
     print("GPU unavailable; enable it in the Kaggle Notebook settings")
+    if shutil.which("nvidia-smi"):
+        subprocess.run(["nvidia-smi"], check=False)
+    else:
+        print("nvidia-smi is not available in this runtime")
