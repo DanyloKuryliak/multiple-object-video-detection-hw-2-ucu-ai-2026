@@ -1,0 +1,14 @@
+{
+  "id": "danylokuryliak4134/ucu-ai-hw2-video-detection-workspace",
+  "title": "UCU AI HW2 video detection workspace",
+  "code_file": "run.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "competition_sources": ["multiple-object-video-detection-hw-2-ucu-ai-2026"],
+  "dataset_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

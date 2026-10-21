@@ -1,0 +1,16 @@
+[project]
+name = "ucu-ai-hw2-video-detection"
+version = "0.1.0"
+requires-python = ">=3.11,<3.13"
+dependencies = [
+  "matplotlib>=3.9",
+  "pillow>=10",
+  "pycocotools>=2.0.8",
+  "pyyaml>=6",
+  "torch>=2.5",
+  "torchvision>=0.20",
+  "ultralytics>=8.3",
+]
+
+[tool.uv]
+package = false
